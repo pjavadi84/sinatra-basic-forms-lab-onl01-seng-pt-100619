@@ -12,6 +12,7 @@ class App < Sinatra::Base
     end
     
     post '/poppy' do
+      new_puppy = Puppy.new 
       
     end
 
